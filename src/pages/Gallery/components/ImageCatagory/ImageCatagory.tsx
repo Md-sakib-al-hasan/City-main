@@ -2,6 +2,17 @@
 import { FiArrowDownLeft, FiArrowUpRight } from "react-icons/fi";
 import Poopup from "../Poopup/Poopup";
 import { useState } from "react";
+import campase1 from "../../../../../public/campase.jpg"
+import campase2 from "../../../../../public/campase2.jpg"
+import campase3 from "../../../../../public/campase 3.jpg"
+import campase4 from "../../../../../public/campase4.jpg"
+import campase5 from "../../../../../public/campasefive.jpg"
+import campase6 from "../../../../../public/campaseone.jpg"
+import study1 from "../../../../../public/study1.jpg"
+import study2 from "../../../../../public/study2.jpg"
+import classe1 from "../../../../../public/calsss1.jpg"
+import classe2 from "../../../../../public/class2.jpg"
+import classe3 from "../../../../../public/class3.jpg"
 
 
 
@@ -10,10 +21,17 @@ function ImageCatagory() {
     const [imagepoopup,setImagepoopup] = useState<string>("")
     const menulist = ["all","Campus", "Study", "Classes",];
     const imgelist = [
-        { img:"https://i.ibb.co.com/8cYhzfs/247708048-423456392531226-5295894135862364241-n.jpg",category:"Classes"},
-        {img:"https://i.ibb.co.com/ZX66GpY/pexels-joao-victor-valeriote-3691654-12579155.jpg",category:"Study"},
-        {img:"https://i.ibb.co.com/MPx3fbc/pexels-vince-2363808.jpg",category:"Campus"},
-        {img: "https://i.ibb.co.com/k8tKpZ6/dashbord13.jpg",category:"Study"},
+        { img:classe1,category:"Classes"},
+        { img:classe2,category:"Classes"},
+        {img:study1,category:"Study"},
+        {img:study2,category:"Study"},
+        {img:campase1,category:"Campus"},
+        {img:campase2,category:"Campus"},
+        {img:campase3,category:"Campus"},
+        {img:campase4,category:"Campus"},
+        {img:campase5,category:"Campus"},
+        {img:campase6,category:"Campus"},
+        { img:classe3,category:"Classes"},
        
     ]
     console.log(imagecatagry)
