@@ -18,6 +18,9 @@ export default function OurInstructor() {
         {img:image2,name:"Md. Juwel Rana",category:"Instructor Textile Technology"},
         {img:image2,name:"Md. Maruf Billah",category:"Instructor,  Textile Technology"},
         {img:image2,name:"Md Sayem uddin",category:"Instructor GED"},
+        {img:image2,name:"Md Sayem uddin",category:"Instructor GED"},
+        {img:image2,name:"Md Sayem uddin",category:"Instructor GED"},
+        {img:image2,name:"Md Sayem uddin",category:"Instructor GED"},
 
     ]
   return (
