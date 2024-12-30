@@ -15,6 +15,9 @@ export default function OurInstructor() {
         {img:image4,name:"Nabila Sultana ",category:"Instructor computer technology"},
         {img:image1,name:"MD Rakibul Hasan ",category:"Instructor, Electrical Technology"},
         {img:image2,name:"Md.Habib Hasan",category:"Instructor, Electrical technology"},
+        {img:image2,name:"Md. Juwel Rana",category:"Instructor Textile Technology"},
+        {img:image2,name:"Md. Maruf Billah",category:"Instructor,  Textile Technology"},
+        {img:image2,name:"Md Sayem uddin",category:"Instructor GED"},
 
     ]
   return (
@@ -26,7 +29,7 @@ export default function OurInstructor() {
             <div className="h-1 w-8 bg-blue-100"></div>
           </span>
 
-        <ul className="grid xl:grid-cols-5 lg:grid-cols-3 md:grid-cols-2 grid-cols-1   gap-4 ">
+        <ul className=" grid xl:grid-cols-5 lg:grid-cols-3 md:grid-cols-2 grid-cols-1      gap-4 ">
             {
                 instructiorarray.map(((item,id) =>  
                     <li key={id} className="text-center relative group">
