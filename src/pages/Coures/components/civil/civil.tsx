@@ -120,8 +120,8 @@ const Civil =() => {
              </div>
              <div  className={`${activestate==2?"block":"hidden"} mt-10 `}>
                <figure className='col-span-1 flex  flex-col justify-center items-center'>
-                <img className='h-[145px] w-auto object-cover' src="https://i.ibb.co.com/rfjkrLZ/images.jpg" alt="" />
-                <h4 className='font-bold capitalize text-center pt-5'>John Done</h4>
+                <img className='h-[145px] w-auto object-cover' src={civile} alt="" />
+                <h4 className='font-bold capitalize text-center pt-5'>Md Maruf Billah</h4>
                </figure>
                <div className='col-span-5'>
                I have experienced in developing curriculum as well as conducting teach training and parenting programs. We guarantee to cover all phases of the teach programs to creating a classroom atmosphere that is stimulating and encouraging to students. I believe in maintaining high standards of education with emphasis on developing readings skills in pupils and thoroughly enjoys working with children and encourages creative expression.
@@ -143,7 +143,7 @@ const Civil =() => {
                 <ul className=''>
                     <li className='bg-[#f3f2f6] p-5 sm:flex gap-4'>
                         <span>
-                            <img src="https://i.ibb.co.com/rfjkrLZ/images.jpg" className='max-h-[120px] object-cover' alt="" />
+                            <img src={civile} className='max-h-[120px] object-cover' alt="" />
                         </span>
                         <span className=''>
                            <span className='flex items-center py-3'> <span className=''>Cherie Leon</span>  <Rating name="half-rating" defaultValue={2.5} precision={5} size='small' /></span>
