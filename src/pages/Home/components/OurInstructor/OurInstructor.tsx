@@ -13,8 +13,8 @@ import Juwal from "../../../../../public/Juwal.jpg"
 export default function OurInstructor() {
     const instructiorarray = [
         {img:princple,name:"Md. Arifuzzaman",category:"Principle city Institute of Technology"},
-        {img:Juwal,name:"Md. Juwel Rana",category:"Instructor Textile Technology"},
         {img:image1,name:"MD Rakibul Hasan ",category:"Instructor, Electrical Technology"},
+        {img:Juwal,name:"Md. Juwel Rana",category:"Instructor Textile Technology"},
         {img:image4,name:"Nabila Sultana ",category:"Instructor computer technology"},
         {img:image2,name:"Md.Habib Hasan",category:"Instructor, Electrical technology"},
         {img:abulkalam,name:"Abul Kalam Azad",category:"Instructor Mechanical Technology"},
