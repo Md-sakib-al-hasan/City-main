@@ -1,6 +1,5 @@
 import { useState, useEffect } from "react";
-import { BiMessageRounded } from "react-icons/bi";
-import { FaUser } from "react-icons/fa";
+
 import { Link } from "react-router-dom";
 
 
@@ -76,13 +75,8 @@ const SliderComponent: React.FC<SliderComponentProps> = ({ instructiorarray }) =
             <span className="text-gray-600 line-clamp-2">{item.category}</span>
           </div>
           <span className="flex justify-between"> {/* Place the button at the bottom */}
-            <span className="flex gap-3">
-            <span className="flex items-center gap-2"> <FaUser /> 75</span>
-            <span className="flex items-center gap-2"><BiMessageRounded /> 35</span>
-            </span>
-            <span className="bg-[#ff4f01] text-white py-1 px-2">
-                 $400
-            </span>
+            
+           
           </span>
         </div>
       </li>

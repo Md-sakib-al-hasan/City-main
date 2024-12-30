@@ -5,6 +5,7 @@ import { FaCheck, FaCircle } from 'react-icons/fa';
 import { IoMdLock } from 'react-icons/io';
 import { IoDocumentTextOutline } from 'react-icons/io5';
 import lifelat from "../../../../assets/courses/lifelet.png"
+import civile from "../../../../../public/marof.jpg"
 
 const Civil =() => {
      const [activestate,setActivestate] = useState<number>(0)
@@ -47,27 +48,19 @@ const Civil =() => {
              <img src="https://i.ibb.co.com/vhCtkh2/5096384.jpg" alt="demo" className="h-[500px] w-full object-cover " />
              <ul className='text-lg font-bold text-[#131d3b] sm:flex xl:gap-16 gap-6 bg-[#f4f6f9] mt-5  sm:space-y-0 space-y-10'>
                 <li className='flex gap-2 '>
-                <img src="https://i.ibb.co.com/rfjkrLZ/images.jpg" alt="" className='w-[60px]  h-auto object-cover' />
+                <img src={civile} alt="" className='w-[60px]  h-auto object-cover' />
                 <span className=''>
                     <span className="capitalize block">Instructor</span>
-                    <span className="capitalize">John Done</span>
+                    <span className="capitalize">Md. Maruf Billah</span>
                 </span>
                 </li>
                 <li className='h-16 w-[1px] bg-gray-200 sm:block hidden '></li>
                 <li>
                  <span ><Rating name="half-rating" defaultValue={2.5} precision={0.5} size="small" /></span>
-                <span className='block'>122 Students Enrolled</span>
+                <span className='block'>Total Students 122</span>
                 </li>
                 <li className='h-16 w-[1px] bg-gray-200 sm:block hidden '></li>
-                <li>
-                    <span className='block'>Course Duration</span>
-                    <span className='text-sm'>8 week</span>
-                </li>
                 <li className='h-16 w-[1px] bg-gray-200  sm:block hidden'></li>
-                <li>
-                   <span className='font-bold'>price</span>
-                   <span className='block text-[#ff4f01]'>$ 45.00</span>
-                </li>
              </ul>
           
              {/* overviw curruim instrctor and reviews all start here */}
