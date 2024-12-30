@@ -4,12 +4,13 @@ import image1 from "../../../../../public/man1.jpg"
 import image2 from "../../../../../public/man2.jpg"
 import image3 from "../../../../../public/man3.jpg"
 import image4 from "../../../../../public/woman.jpg"
+import princple from "../../../../../public/Princple.jpg"
 
 
 export default function OurInstructor() {
     const instructiorarray = [
-        {img:image2,name:"Willwam Logan",category:"biology professor"},
-        {img:image3,name:"Willwam Logan",category:"biology professor"},
+        {img:princple,name:"Md. Arifuzzaman",category:"Principle city Institute of Technology"},
+        {img:image3,name:"Abul Kalam Azad",category:"Instructor Mechanical Technology"},
         {img:image4,name:"Nabila Sultana ",category:"Instructor computer technology"},
         {img:image1,name:"MD Rakibul Hasan ",category:"Instructor, Electrical Technology"},
         {img:image2,name:"Md.Habib Hasan",category:"Instructor, Electrical technology"},
