@@ -5,6 +5,9 @@ import image2 from "../../../../../public/man2.jpg"
 import image4 from "../../../../../public/woman.jpg"
 import princple from "../../../../../public/Princple.jpg"
 import abulkalam from "../../../../../public/abulkalam.jpg"
+import sime from "../../../../../public/Sime.jpg"
+import marof from "../../../../../public/marof.jpg"
+import Juwal from "../../../../../public/Juwal.jpg"
 
 
 export default function OurInstructor() {
@@ -14,12 +17,10 @@ export default function OurInstructor() {
         {img:image4,name:"Nabila Sultana ",category:"Instructor computer technology"},
         {img:image1,name:"MD Rakibul Hasan ",category:"Instructor, Electrical Technology"},
         {img:image2,name:"Md.Habib Hasan",category:"Instructor, Electrical technology"},
-        {img:image2,name:"Md. Juwel Rana",category:"Instructor Textile Technology"},
-        {img:image2,name:"Md. Maruf Billah",category:"Instructor,  Textile Technology"},
-        {img:image2,name:"Md Sayem uddin",category:"Instructor GED"},
-        {img:image2,name:"Md Sayem uddin",category:"Instructor GED"},
-        {img:image2,name:"Md Sayem uddin",category:"Instructor GED"},
-        {img:image2,name:"Md Sayem uddin",category:"Instructor GED"},
+        {img:Juwal,name:"Md. Juwel Rana",category:"Instructor Textile Technology"},
+        {img:marof,name:"Md. Maruf Billah",category:"Instructor,  Textile Technology"},
+        {img:sime,name:"Md Sayem uddin",category:"Instructor GED"},
+        
 
     ]
   return (
