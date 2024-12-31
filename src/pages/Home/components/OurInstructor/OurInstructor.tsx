@@ -5,16 +5,17 @@ import image2 from "../../../../../public/man2.jpg"
 import image4 from "../../../../../public/woman.jpg"
 import princple from "../../../../../public/Princple.jpg"
 import abulkalam from "../../../../../public/abulkalam.jpg"
-import sime from "../../../../../public/Sime.jpg"
+import sime from "../../../../../public/Md Sayem uddin.jpg"
 import marof from "../../../../../public/marof.jpg"
-import Juwal from "../../../../../public/Juwal.jpg"
+// import Juwal from "../../../../../public/Juwal.jpg"
+import { FaCircleUser } from "react-icons/fa6"
 
 
 export default function OurInstructor() {
     const instructiorarray = [
         {img:princple,name:"Md. Arifuzzaman",category:"Principle city Institute of Technology"},
         {img:image1,name:"MD Rakibul Hasan ",category:"Instructor, Electrical Technology"},
-        {img:Juwal,name:"Md. Juwel Rana",category:"Instructor Textile Technology"},
+        {name:"Md. Juwel Rana",category:"Instructor Textile Technology"},
         {img:image4,name:"Nabila Sultana ",category:"Instructor computer technology"},
         {img:image2,name:"Md.Habib Hasan",category:"Instructor, Electrical technology"},
         {img:abulkalam,name:"Abul Kalam Azad",category:"Instructor Mechanical Technology"},
@@ -37,8 +38,12 @@ export default function OurInstructor() {
                 instructiorarray.map(((item,id) =>  
                     <li key={id} className="text-center relative group">
                 <div className="space-y-5">
-                  <div className="relative">
-                    <img src={item.img} className="h-[300px] object-cover " alt="" />
+                  <div className="relative flex justify-center">
+                   
+                  {
+                       item.img?<img src={item.img} className="h-[200px]  rounded-full" alt="" />: <span><FaCircleUser  size={200} /></span>
+                  }
+                   
                     <div className="absolute inset-0 bg-black bg-opacity-70 text-white text-xl space-y-4 pl-[80%] items-end pr-5 pt-10 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                       <FaTwitter />
                       <RiFacebookFill />
